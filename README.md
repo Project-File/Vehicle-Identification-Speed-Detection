@@ -45,7 +45,7 @@ You can perform Vehicle Data Extraction or Speed Detection by clicking the desir
 <p align="center"><img src="data/ss/dataOutput.png" width="640"\></p>
 <p align="center"><img src="data/ss/result14.jpg" width="640"\></p>
 <p align="center"><img src="data/ss/result15.jpg" width="640"\></p>
-<p align="center"><img src="data/ss/result16.jpg" width="640"\></p>
+<p align="center"><img src="data/ss/result16.jpg" width="360"\></p>
 
 
 ### Publication:
