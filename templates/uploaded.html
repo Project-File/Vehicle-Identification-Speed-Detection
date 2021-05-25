@@ -1,0 +1,48 @@
+{% extends "layout.html" %} {% block content %}
+<script type="text/javascript">// <![CDATA[
+        function loading(){
+            $(".loader-wrapper").show();
+            $("#content").hide();       
+        }
+// ]]></script>
+<center>
+    <div class="loader-wrapper">
+        <div style="margin-top: 200px;"></div>
+        <span class="loader1">
+            <span class="loader-inner1"></span>
+        </span>
+        <span class="loader">
+            <span class="loader-inner"></span>
+        </span>
+        <span class="loader1">
+            <span class="loader-inner1"></span>
+        </span>
+        <!-- <span class="loader1"><span class="loader-inner1"></span></span> -->
+        <br><br>
+        <h3 style="font-weight: 600;">Data Extraction in progress, please wait.</h3>
+    </div>
+
+    <div id="content"><br>
+        <h1 class="display-4">Data Extraction</h1>
+        <a href="/speed"  class="btn btn-primary btn-lg m-3">Click Here for Speed Detection</a>
+        <br />
+        {% if fname %}
+            <p>Data Extraction completed successfully.</p>
+            <a type="button" href="../static/detections/data/output.csv" class="btn btn-success" download="output.csv">Download .csv</a>
+        {% endif %}
+        
+
+        <div class="upload-form" style="margin-top: 20px; margin-bottom: 40px">
+            <h4 class="">Upload Video</h4>
+            <form
+                action="/uploader"
+                method="POST"
+                enctype="multipart/form-data"
+            >
+                <input type="file" name="file" />
+                <input type="submit" onclick="loading()"  />
+            </form>
+        </div>
+    </div>
+</center>
+{% endblock %}

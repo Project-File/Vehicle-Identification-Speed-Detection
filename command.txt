@@ -1,0 +1,1 @@
+curl.exe -X POST -F image=@suz.jpg "http://localhost:5000/api/test" --output output.png
