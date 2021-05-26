@@ -13,7 +13,7 @@ All these features of VSID are provided to the user using a Web Application whic
 
 <strong>Download the required Weights File:</strong><br>
 
-<p> Pre-Trained YOLOv4 weights : https://drive.google.com/file/d/1OTVtOd3VvCPvw_IHGfINtzZt8OQx4ICn/view?usp=sharing</p>
+<p> <a href="https://drive.google.com/file/d/1OTVtOd3VvCPvw_IHGfINtzZt8OQx4ICn/view?usp=sharing">Pre-Trained YOLOv4 weights </a> </p>
 <p> License Plate YOLOv4 weights : https://drive.google.com/file/d/1HyLvb-fdGY0FrBxhNm1djGh2nrlNR0T7/view?usp=sharing</p>
 <p> Vehicle Logo YOLOv4 weights : https://drive.google.com/file/d/1nXoFgDE5qhG9DSocsLwm0cXeAPMmAy_o/view?usp=sharing</p>
 
