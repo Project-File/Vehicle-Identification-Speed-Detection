@@ -51,3 +51,5 @@ You can perform Vehicle Data Extraction or Speed Detection by clicking the desir
 
 Read more about the project at : https://www.jetir.org/papers/JETIR2105673.pdf
 
+### Credits:
+<p> The AI Guy : https://github.com/theAIGuysCode</p>
